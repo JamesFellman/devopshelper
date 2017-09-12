@@ -1,8 +1,66 @@
 body {
     padding-top: 60px;
+
+    background: #ef32d9; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #89fffd, #ef32d9); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #89fffd, #ef32d9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .starter-template {
     padding: 40px 15px;
     text-align: center;
+}
+
+/*about content
+======================================== */
+
+/* Center Align the text within the three columns */
+.marketing .span4 {
+    text-align: center;
+}
+.marketing h2{
+    font-weight: normal;
+}
+.marketing .span4 p{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.member-title{
+    color: #f0fBff;
+}
+.member-h2-padding{
+    margin-top:  -10px;
+}
+
+
+/* featurettes
+========================================
+ */
+.featurette-divider{
+    margin: 80px 0; /*space out bootsrap <hr>s*/
+}
+
+.featurette{
+    padding-top: 120px;
+    overflow: hidden;
+}
+.featurette-image{
+    margin-top: -120px;
+}
+
+/*space on side of floated elements for text */
+.featurette-image.pull-left {
+    margin-right: 40px;
+}
+.featurette-image.pull-right {
+    margin-left: 40px;
+}
+
+/*thin heading*/
+.featurette-heading {
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -1px;
 }
